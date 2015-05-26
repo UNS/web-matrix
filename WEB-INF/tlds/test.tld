@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC 
+  "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" 
+  "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd"> 
+
+<taglib >
+  <tlibversion> 1.0 </tlibversion>
+  <jspversion> 1.1 </jspversion>
+<shortname>test</shortname>
+<info>Hi</info>
+
+
+	<tag>
+
+		<name>printMatrix</name>
+
+		<tagclass>tags.PrintMatrix</tagclass>
+		<bodycontent>empty</bodycontent>
+
+		<attribute>
+			<name>matrix</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+	</tag>
+
+
+	<tag>
+		<name>test</name>
+		<tagclass>tags.Test</tagclass>
+		<bodycontent>empty</bodycontent>
+
+		<attribute>
+			<name>x</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>y</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>width</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>height</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+
+		<attribute>
+			<name>list</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+
+		<attribute>
+			<name>align</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+
+
+</taglib>
