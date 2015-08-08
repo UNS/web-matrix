@@ -25,7 +25,7 @@
 		    <TD width="110" align="center" bgcolor="#FFFFFF"> <A HREF="http://matrix.dev.juga.ru/"> <img src="img/lab2.jpg" vspace="0" hspace="0"> </A>
 		    <TD width="200" align="left"  bgcolor="#FFFFFG">
 
-			<textarea name="inp_mtx" Rows="7" Cols="35"><%if(A!=null) {%><%=A%><%}%></textarea>
+			<textarea name="inp_mtx" Rows="7" Cols="35" autofocus><%if(A!=null) {%><%=A%><%}%></textarea>
 		    <TD  align="center"  bgcolor="#FFFFFG" valign="bottom">
 			&nbsp&nbsp&nbspВведите элементы матрицы, через пробел.
 			<br>
